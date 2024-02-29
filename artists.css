@@ -1,0 +1,134 @@
+* {
+    color: #6e6e6e;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1529798856831-427dfd0a1ab1?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.361);
+    margin: -8PX;
+}
+
+.intro{
+    padding-top: 22px;
+    padding-left: 48%;
+    position: fixed;
+    vertical-align: middle;
+}
+.symbol{
+    margin-top: 23%;
+    margin-left: -41%;
+    margin-bottom: -12%;
+}
+ul {
+    list-style: none;
+    margin-top: -2%;
+}
+
+ul li {
+    top: 0%;
+    position: relative;
+    display: inline-block;
+}
+
+ul li a {
+    margin: 0%;
+    display: block;
+    padding: 20px 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    
+}
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    padding-top: 4%;
+    padding-left: 0%;
+    width: 347%;
+    background: #000000;
+    position: absolute;
+    display: none;
+    top: 118%;
+}
+ul li a:hover {
+    margin: 0%;
+    background: #4d4d4d56;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+.socialmedia{
+    color: white;
+    cursor: pointer;
+    font-size: larger;
+    letter-spacing: 12px;
+    background-color: rgba(16, 16, 16, 0.591);
+    position: fixed;
+    bottom: -3px;
+    left: 0px;
+    width: 97%;
+    padding: 25px;
+    text-align: center;
+}
+.socialmedia i:hover{
+    color: rgb(255, 255, 255);
+}
+
+.artists{
+    padding-left: 8%;
+    font-size: xx-large;
+    padding-top: 18%;
+}
+.artists h1:hover{
+    color: #664c3d
+}
+.artistsimg a img:hover{
+    padding-right: 1%;
+    transition: 1s;
+    width: 26%;
+}
+.title{
+    padding-left: 26%;
+}
+.artistsimg{
+    width: 61%;
+    margin-top: -29%;
+    padding-left: 38%;
+}
+.aboutus{
+    width: 68%;
+    padding-left: 22%;
+    padding-top: 57%;
+}
+.matter{
+    width: 72%;
+    padding-left: 14%;
+    padding-top: 5%;
+}
+button {
+    PADDING: 1%;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: solid 1px rgb(255, 255, 255);
+    width: 15%;
+    margin: 7% 42%;
+}
+.rights{
+    color: white;
+    padding-left: 80%;
+    padding-top: 4.5%;
+    font-size: x-small;
+    font-weight: 700;
+}
